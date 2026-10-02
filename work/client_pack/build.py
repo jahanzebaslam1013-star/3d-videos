@@ -40,6 +40,8 @@ p{margin:0 0 8px}
 .proof b{display:block;font-family:Bebas;font-weight:400;font-size:15pt;color:var(--gold);letter-spacing:.5px}
 .proof span{font-size:8.6pt;color:#cfcac0}
 .hdr{display:flex;align-items:center;gap:12px;margin-bottom:4px}
+.group{font:700 8pt Inter;letter-spacing:2px;text-transform:uppercase;color:var(--red);margin-bottom:4px}
+.grow td{background:#efe8da;font:700 8pt Inter;letter-spacing:1.5px;text-transform:uppercase;color:var(--red);padding:5px 9px}
 .num{font-family:Bebas;font-size:40pt;color:var(--red);line-height:.9}
 .tagline{color:var(--muted);font-size:10pt;margin:2px 0 12px}
 .imgs{display:grid;gap:8px;margin:6px 0 4px}
@@ -107,12 +109,16 @@ def html_doc():
 </section>''')
 
     # at a glance
-    rows = ''.join(f'<tr><td><b>{n["num"]}</b></td><td><b>{e(n["name"])}</b><br><span class="small">{e(n["tagline"])}</span></td>'
-                   f'<td class="price">{e(n["range"])}</td><td>{e(n["delivery"])}</td></tr>' for n in C.NICHES)
+    rows, last = '', None
+    for n in C.NICHES:
+        grp = n['group'].split(' · Section')[0]
+        if grp != last: rows += f'<tr class="grow"><td colspan="4">{e(grp)}</td></tr>'; last = grp
+        rows += (f'<tr><td><b>{n["num"]}</b></td><td><b>{e(n["name"])}</b></td>'
+                 f'<td class="price">{e(n["range"])}</td><td>{e(n["delivery"])}</td></tr>')
     heads = ''.join(f'<tr><td class="tier">{e(a)}</td><td>{e(b)}</td></tr>' for a, b in C.PROFILE_HEADLINES)
     steps = ''.join(f'<div><b>{i + 1}. {e(a)}</b>{e(b)}</div>' for i, (a, b) in enumerate(C.PROCESS))
     pages.append(f'''<section class="page">
-<h2>At a glance</h2><p class="tagline">Four services, from fast and affordable to premium. Lead with the one that fits the client.</p>
+<h2>At a glance</h2><p class="tagline">Three styles in four services, from fast and affordable to premium. Lead with the one that fits the client.</p>
 <table class="glance"><tr><th>#</th><th>Service</th><th>Price</th><th>Delivery</th></tr>{rows}</table>
 <h3>Profile headlines (copy &amp; paste)</h3>
 <table>{heads}</table>
@@ -132,6 +138,7 @@ def html_doc():
         pk = ''.join(f'<tr><td class="tier">{e(a)}</td><td class="price">{e(b)}</td><td>{e(c)}</td></tr>' for a, b, c in n['packages'])
         note = f'<div class="note">{e(n["note"])}</div>' if n.get('note') else ''
         p1 = f'''<section class="page">
+<div class="group">{e(n["group"])}</div>
 <div class="hdr"><div class="num">{n["num"]}</div><h2>{e(n["name"])}</h2></div>
 <div class="tagline">{e(n["tagline"])}</div>
 {visual}
@@ -141,6 +148,7 @@ def html_doc():
 {note}
 {foot(3 + k * 2)}</section>'''
         p2 = f'''<section class="page">
+<div class="group">{e(n["group"])}</div>
 <div class="hdr"><div class="num">{n["num"]}</div><h2>{e(n["name"])}: selling kit</h2></div>
 <h3>Main niche keyword</h3>{chips([n["main_keyword"]], 'main')}
 <h3>Fiverr tags (5 max)</h3>{chips(n["tags5"], 'tag')}
@@ -226,6 +234,7 @@ def to_docx(path):
 
     for n in C.NICHES:
         d.add_page_break()
+        d.add_paragraph(n['group'].upper()).runs[0].bold = True
         h(f'{n["num"]}. {n["name"]}', 1)
         d.add_paragraph(n['tagline']).runs[0].italic = True
         if n['images']:

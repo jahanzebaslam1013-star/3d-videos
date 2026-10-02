@@ -9,18 +9,19 @@ DATE = "October 2026"
 INTRO = [
     "This pack has everything you need to sell my animation services: the niche names, keywords for "
     "gigs and profiles, sample frames, short client hooks, and prices.",
-    "We make four kinds of video. Three are produced with our own in-house animation pipeline: "
-    "the script, voiceover, every scene, captions, music and sound effects. That keeps them fast and "
-    "affordable. The fourth is a premium Blender service for clients who want the cinematic, "
-    "viral 3D Shorts look.",
+    "We offer three styles. Stickman POV animation comes as Shorts or long-form YouTube videos, and "
+    "there are also low-poly 3D what-if Shorts. All three are produced with our own in-house animation "
+    "pipeline: the script, voiceover, every scene, captions, music and sound effects. That keeps them "
+    "fast and affordable. On top of that, we offer a premium Blender service for clients who want the "
+    "cinematic, viral 3D Shorts look.",
     "Every project follows the same steps. The client approves the script, then sees sample frames "
     "(a storyboard) before the full render. This keeps revisions low, so tell clients about it.",
 ]
 
 PROOF = [
-    ("20K views in 36 hours", "“Gravity Got Fired”, a low-poly 3D what-if Short from my own channel, got 102% retention (viewers rewatched it)."),
-    ("8.5-minute long-form story", "“POV: DUNKI”, a full Urdu second-person stickman story about illegal migration: 4 sections with music and SFX, plus a thumbnail."),
-    ("Own channels in this format", "Doodle POV (English stickman POV stories) plus an Urdu stickman channel. We make this content for ourselves, not just for clients."),
+    ("102% retention", "“Gravity Got Fired”, a low-poly 3D what-if Short from my own channel. Viewers watched it to the end and replayed it."),
+    ("8:45 long-form POV story", "“POV: You're a Dictator's Personal Bodyguard”, a full stickman POV story in 4 sections with music, SFX, a thumbnail and a Premiere timeline."),
+    ("Own channels in this format", "Doodle POV, our English stickman POV story channel. We make this content for ourselves, not just for clients."),
     ("English + Urdu", "Professional AI narration in English (deep American narrator) and Urdu. Other languages are available on request."),
 ]
 
@@ -28,6 +29,7 @@ PROOF = [
 NICHES = [
     {
         "id": "stickman",
+        "group": "Part 1 · Stickman POV Animation · Section 1 of 2: Shorts",
         "num": "01",
         "name": "Stickman POV Animated Shorts",
         "tagline": "Hand-drawn stickman “POV” Shorts for TikTok, YouTube Shorts and Reels (9:16, 30–90 s)",
@@ -62,7 +64,7 @@ NICHES = [
         "hook_short": (
             "Faceless channel stuck at low views? I make hand-drawn stickman “POV” Shorts that people "
             "watch to the end. You get the script, voiceover, captions, music and SFX, all done for you. A "
-            "60-second Short starts at $60 and arrives in 48 hours. Want a free sample frame of your first "
+            "Short costs $35–45 per minute and arrives in 48 hours. Want a free sample frame of your first "
             "scene?"
         ),
         "hook_long": (
@@ -79,25 +81,26 @@ NICHES = [
         ],
         "upwork_title": "Stickman POV Animation | Faceless YouTube Shorts & TikTok Story Videos",
         "packages": [
-            ("Basic", "$35", "Up to 30 s · your script & voiceover · animation, captions, music & SFX · 1 revision · 2 days"),
-            ("Standard", "$60", "Up to 60 s · script polish + AI narrator · captions, music & SFX · 2 revisions · 2 days"),
-            ("Premium", "$90", "Up to 90 s · script written from your topic · premium narrator · cover image · 3 revisions · 3 days"),
+            ("Basic", "$35/min", "Your script & voiceover · animation, captions, music & SFX · 1 revision · 2 days"),
+            ("Standard", "$40/min", "Script polish + AI narrator · captions, music & SFX · 2 revisions · 2 days"),
+            ("Premium", "$45/min", "Script written from your topic · premium narrator · cover image · 3 revisions · 3 days"),
         ],
-        "bulk": "Monthly bundles: 10 Shorts for $500 (≈$50 each) · 30 Shorts for $1,350 (≈$45 each).",
-        "range": "$35 – $90 per Short",
+        "bulk": "Priced per finished minute. For monthly volume deals, ask Jahanzeb for a quote.",
+        "range": "$35 – $45 per minute",
         "delivery": "1–3 days",
     },
     {
         "id": "longform",
+        "group": "Part 1 · Stickman POV Animation · Section 2 of 2: Long-form",
         "num": "02",
-        "name": "Second-Person “POV: You're…” Animated Story Videos",
+        "name": "Long-Form Stickman POV Animated Videos",
         "tagline": "Long-form 16:9 YouTube story videos (5–12 min) in the hand-drawn stickman style, plus Shorts cut-downs",
         "images": ["longform_thumbnail.jpg", "longform_scenes.jpg"],
         "image_layout": "row2",
-        "caption": "From our finished 8.5-minute video “POV: DUNKI”: the thumbnail and four scenes.",
+        "caption": "From our long-form video “POV: You're a Dictator's Personal Bodyguard”: the thumbnail and four scenes (banquet, freeze frame, rule card, TV news).",
         "description": (
-            "Full YouTube videos told in second person and present tense (“You step forward.”), the format "
-            "used by big story-animation channels. A cold-open hook drops the viewer into the most dangerous "
+            "Full YouTube POV videos told from the viewer's point of view in the present tense (“You step forward.”), "
+            "the format used by big story-animation channels. A cold-open hook drops the viewer into the most dangerous "
             "moment. Then a “3 years earlier…” rewind tells the story in order, with a twist and an ironic "
             "ending. The visuals use the same rough stickman style with mood-based colour palettes, maps, "
             "documents, stamps, freeze frames, rewind effects, counters and title cards. The music and Foley "
@@ -107,7 +110,7 @@ NICHES = [
         "main_keyword": "animated story video",
         "tags5": ["animated story video", "youtube automation", "stickman animation", "2d animation", "faceless youtube"],
         "keywords": [
-            "second person story videos", "POV story animation", "POV you're videos", "animated story videos",
+            "long-form POV videos", "POV story animation", "POV you're videos", "animated story videos",
             "faceless YouTube channel", "YouTube automation videos", "cash cow YouTube", "2D story animation",
             "stickman story animation", "animated documentary", "edutainment animation", "history animation",
             "hypothetical scenario videos", "what if story videos", "true story animation", "crime story animation",
@@ -119,36 +122,37 @@ NICHES = [
             "Faceless / YouTube automation channel owners (story, history, crime, “what if”, careers)",
             "Edutainment and history creators who want a consistent weekly animated format",
             "NGOs and awareness campaigns (migration, health, safety) that want an emotional story video",
-            "Urdu / South Asian channels that want local stories (we do Urdu voiceover and local details)",
+            "Channels in any niche that want English or Urdu narration",
         ],
         "hook_short": (
-            "I turn your script into an 8–10 minute “POV: You're…” animated story video in the hand-drawn "
-            "stickman style that big story channels use. You get full scenes, voiceover, music, SFX and a "
-            "thumbnail in 5–7 days. Your channel gets a consistent weekly look without hiring an animation team."
+            "I turn your script into an 8-minute “POV: You're…” animated story video in the hand-drawn "
+            "stickman style that big story channels use, for $30 per minute ($240 for 8 minutes). You get full "
+            "scenes, voiceover, music, SFX and a thumbnail in 5–10 days. Your channel gets a consistent weekly look without hiring an animation team."
         ),
         "hook_long": (
-            "Hi [Name], I produce second-person animated story videos (“POV: You're a…”) end to end. I can "
+            "Hi [Name], I produce long-form POV animated story videos (“POV: You're a…”) end to end. I can "
             "write the script with a cold-open hook, a rewind and a twist ending, voice it, animate every scene "
             "and cut music and sound effects to each beat. You review it section by section. You also see "
-            "frames before anything is fully rendered. I just finished an 8.5-minute story video this way and "
-            "can share it. Are you looking for one video, or a weekly upload partner?"
+            "frames before anything is fully rendered. I just finished an 8:45 video this way, “POV: You're a "
+            "Dictator's Personal Bodyguard”, and can share it. Are you looking for one video, or a weekly upload partner?"
         ),
         "gig_titles": [
-            "I will create a POV second person animated story video for your YouTube channel",
+            "I will create a long form POV animated story video for your YouTube channel",
             "I will make long form stickman story animation for faceless YouTube channels",
         ],
         "upwork_title": "Animated Story Videos for YouTube | 2D Stickman “POV” Long-Form & Faceless Channels",
         "packages": [
-            ("Basic", "$180", "Up to 5 min · your script & voiceover · full animation, music & SFX · 1 revision · 5 days"),
-            ("Standard", "$300", "8–10 min · your script · AI narrator, music & SFX · thumbnail · 2 revisions · 7 days"),
-            ("Premium", "$450", "10–12 min · script written from your topic · narrator · thumbnail · 2 Shorts cut-downs · Premiere timeline · 3 revisions · 7–10 days"),
+            ("Rate", "$30/min", "Any length, billed per finished minute · full animation, AI narrator, music & SFX · thumbnail"),
+            ("8-min video", "$240", "Our standard length · full package as above · 2 revisions · 5–10 days"),
+            ("Examples", "", "5 min = $150 · 10 min = $300 · 12 min = $360"),
         ],
-        "bulk": "Weekly upload partner: 4 videos per month for $1,100–$1,600, depending on length. Rule of thumb: about $30–40 per finished minute.",
-        "range": "$180 – $450 per video",
+        "bulk": "Weekly upload partner: 4 videos a month at the same $30 per minute (4 × 8 min = $960).",
+        "range": "$30 per minute (8 min = $240)",
         "delivery": "5–10 days",
     },
     {
         "id": "lowpoly",
+        "group": "Part 2 · 3D Animation",
         "num": "03",
         "name": "3D Low-Poly “What If” Story Shorts",
         "tagline": "Funny 3D animated what-if Shorts with talking planets, objects and characters (9:16, 20–60 s)",
@@ -162,8 +166,8 @@ NICHES = [
             "skies. A recurring cast of characters makes it feel like a series. Every Short opens on action "
             "in frame 1, escalates line by line, includes one real science fact so people share it, and ends "
             "on a loop or a twist. Each one comes with a deadpan narrator, bold word-by-word captions, a "
-            "music bed and SFX on every gag. Our best one so far got 20K views in 36 hours with 102% "
-            "retention."
+            "music bed and SFX on every gag. Our best one so far reached 102% retention (viewers "
+            "watched to the end and replayed it)."
         ),
         "main_keyword": "3d animated shorts",
         "tags5": ["3d animation", "animated shorts", "youtube shorts", "what if", "explainer video"],
@@ -182,15 +186,15 @@ NICHES = [
             "Faceless channel owners who want a 3D look without 3D-studio prices",
         ],
         "hook_short": (
-            "“What if the moon went on strike?” That kind of 3D Short got 20K views in 36 hours with "
-            "102% retention on my own channel. I make low-poly 3D what-if Shorts end to end, from script "
-            "and narration to animation, captions and sound. They start at $80 per Short and arrive in 3 days."
+            "“What if the moon went on strike?” That kind of 3D Short reached 102% retention on my own "
+            "channel, so viewers watched it to the end and replayed it. I make low-poly 3D what-if Shorts end "
+            "to end, from script and narration to animation, captions and sound. $50 per Short, delivered in 3 days."
         ),
         "hook_long": (
             "Hi [Name], your audience would love a 3D “what if” series built on your topics. I make "
             "low-poly animated Shorts where everyday things come alive (planets, clouds, objects, even your "
             "mascot). Every one has a hook in the first frame, escalating gags, one real fact and a loop "
-            "ending that drives rewatches. One of mine got 20K views in 36 hours with 102% retention. "
+            "ending that drives rewatches. One of mine reached 102% retention. "
             "Should I pitch you 3 episode ideas for your channel?"
         ),
         "gig_titles": [
@@ -199,16 +203,15 @@ NICHES = [
         ],
         "upwork_title": "3D Animated Shorts | Viral “What If” Low-Poly Stories for YouTube Shorts & TikTok",
         "packages": [
-            ("Basic", "$50", "Up to 30 s · your script & voiceover · 3D animation, captions, music & SFX · 1 revision · 3 days"),
-            ("Standard", "$80", "Up to 60 s · script + narrator · captions, music & SFX · 2 revisions · 3 days"),
-            ("Premium", "$120", "Up to 60 s · custom character / mascot / brand colours · 2 hook variants · 3 revisions · 4 days"),
+            ("Per Short", "$50", "Up to 60 s · script + narrator · 3D animation · captions, music & SFX · 2 revisions · 2–4 days"),
         ],
-        "bulk": "Monthly series: 10 Shorts for $700 (≈$70 each). Recurring characters stay consistent across the series.",
-        "range": "$50 – $120 per Short",
+        "bulk": "Monthly series: $50 per Short. Recurring characters stay consistent across the series. Custom mascots or brand characters: ask Jahanzeb for a quote.",
+        "range": "$50 per Short",
         "delivery": "2–4 days",
     },
     {
         "id": "blender",
+        "group": "Part 3 · Premium Blender 3D",
         "num": "04",
         "name": "Premium 3D Blender Shorts (Zack D. Films style)",
         "tagline": "Cinematic, custom-built Blender scenes and characters for viral 3D Shorts (9:16, 20–60 s)",
@@ -311,7 +314,7 @@ RULES = [
 
 LINKEDIN_IDEAS = [
     "Before/after post: a client's plain script → 3 finished frames → “this became a 60-second Short”.",
-    "Results post: “This 3D Short got 20K views in 36 hours with 102% retention. Here's why it worked” (hook, escalation, loop).",
+    "Results post: “This 3D Short hit 102% retention. Here's why it worked” (hook, escalation, loop).",
     "Behind-the-scenes carousel: script → storyboard frames → final video for a POV story.",
     "Offer post to faceless-channel owners: “I'll animate your next story as a stickman POV Short. A free sample frame is on me.”",
 ]
@@ -319,7 +322,7 @@ LINKEDIN_IDEAS = [
 LINKS = [
     ("Doodle POV (YouTube channel)", "[add link]"),
     ("“Gravity Got Fired” (3D low-poly Short)", "[add link]"),
-    ("“POV: DUNKI” (long-form Urdu story video)", "[add link]"),
+    ("“POV: You're a Dictator's Personal Bodyguard” (long-form POV video)", "[add link]"),
     ("Blender portfolio clips", "[add link]"),
 ]
 
