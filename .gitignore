@@ -4,3 +4,9 @@
 work/project/test_*.png
 work/project/s1/
 __pycache__/
+work/project/sec*/
+work/project/s2/
+*.png
+!work/_previews/*.png
+*.jpg
+!work/Dunki_thumbnail.jpg
