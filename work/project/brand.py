@@ -144,3 +144,21 @@ if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     make_logo(); make_avatar(); make_banner()
     print('ok ->', OUT)
+
+
+def make_endcard():
+    """1920x1080 end card for Premiere: replaces the DOODLE POV placeholder."""
+    w, h = 1920, 1080
+    surf = cairo.ImageSurface(cairo.FORMAT_ARGB32, w, h); ctx = cairo.Context(surf)
+    paper(ctx, w, h, seed=12)
+    size = 330
+    tw = wordmark_width(ctx, size)
+    wordmark(ctx, (w - tw) / 2, 560, size)
+    rough(ctx, [((w - tw) / 2, 600), ((w + tw) / 2, 596)], 10, 78, RED)
+    pk.ltext(ctx, 'Farz karein… ye kahani aap ki hai.', w / 2, 690, 60, color=INK)
+    pk.ltext(ctx, 'Agli kahani ke liye SUBSCRIBE karein', w / 2, 800, 46, color=RED)
+    surf.write_to_png(os.path.join(OUT, 'endcard_1920x1080.png'))
+
+
+if __name__ == '__main__':
+    make_endcard()
