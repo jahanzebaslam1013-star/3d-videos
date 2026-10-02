@@ -10,3 +10,4 @@ work/project/s2/
 !work/_previews/*.png
 *.jpg
 !work/Dunki_thumbnail.jpg
+work/project/build/
