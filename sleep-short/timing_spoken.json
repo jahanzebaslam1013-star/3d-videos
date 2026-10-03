@@ -1,0 +1,488 @@
+[
+ {
+  "text": "This boy hasn't slept in eleven days.",
+  "start": 0.03,
+  "end": 1.89,
+  "words": [
+   {
+    "w": "This",
+    "start": 0.03,
+    "end": 0.28
+   },
+   {
+    "w": "boy",
+    "start": 0.27,
+    "end": 0.47
+   },
+   {
+    "w": "hasn't",
+    "start": 0.46,
+    "end": 0.81
+   },
+   {
+    "w": "slept",
+    "start": 0.8,
+    "end": 1.11
+   },
+   {
+    "w": "in",
+    "start": 1.1,
+    "end": 1.25
+   },
+   {
+    "w": "eleven",
+    "start": 1.24,
+    "end": 1.59
+   },
+   {
+    "w": "days.",
+    "start": 1.58,
+    "end": 1.89
+   }
+  ]
+ },
+ {
+  "text": "Back in nineteen sixty-four, Randy Gardner stayed awake for two hundred sixty-four hours.",
+  "start": 2.08,
+  "end": 6.92,
+  "words": [
+   {
+    "w": "Back",
+    "start": 2.08,
+    "end": 2.34
+   },
+   {
+    "w": "in",
+    "start": 2.33,
+    "end": 2.5
+   },
+   {
+    "w": "nineteen",
+    "start": 2.49,
+    "end": 2.96
+   },
+   {
+    "w": "sixty-four,",
+    "start": 2.95,
+    "end": 3.58
+   },
+   {
+    "w": "Randy",
+    "start": 3.57,
+    "end": 4.05
+   },
+   {
+    "w": "Gardner",
+    "start": 4.04,
+    "end": 4.49
+   },
+   {
+    "w": "stayed",
+    "start": 4.48,
+    "end": 4.85
+   },
+   {
+    "w": "awake",
+    "start": 4.84,
+    "end": 5.16
+   },
+   {
+    "w": "for",
+    "start": 5.15,
+    "end": 5.36
+   },
+   {
+    "w": "two",
+    "start": 5.35,
+    "end": 5.58
+   },
+   {
+    "w": "hundred",
+    "start": 5.57,
+    "end": 5.99
+   },
+   {
+    "w": "sixty-four",
+    "start": 5.98,
+    "end": 6.55
+   },
+   {
+    "w": "hours.",
+    "start": 6.54,
+    "end": 6.92
+   }
+  ]
+ },
+ {
+  "text": "After just one day, his brain worked like a drunk driver's.",
+  "start": 7.12,
+  "end": 10.22,
+  "words": [
+   {
+    "w": "After",
+    "start": 7.12,
+    "end": 7.43
+   },
+   {
+    "w": "just",
+    "start": 7.42,
+    "end": 7.68
+   },
+   {
+    "w": "one",
+    "start": 7.67,
+    "end": 7.88
+   },
+   {
+    "w": "day,",
+    "start": 7.87,
+    "end": 8.13
+   },
+   {
+    "w": "his",
+    "start": 8.12,
+    "end": 8.33
+   },
+   {
+    "w": "brain",
+    "start": 8.32,
+    "end": 8.71
+   },
+   {
+    "w": "worked",
+    "start": 8.7,
+    "end": 9.06
+   },
+   {
+    "w": "like",
+    "start": 9.05,
+    "end": 9.31
+   },
+   {
+    "w": "a",
+    "start": 9.3,
+    "end": 9.41
+   },
+   {
+    "w": "drunk",
+    "start": 9.4,
+    "end": 9.71
+   },
+   {
+    "w": "driver's.",
+    "start": 9.7,
+    "end": 10.22
+   }
+  ]
+ },
+ {
+  "text": "Then it started shutting off for seconds, with his eyes still open.",
+  "start": 10.42,
+  "end": 13.63,
+  "words": [
+   {
+    "w": "Then",
+    "start": 10.42,
+    "end": 10.66
+   },
+   {
+    "w": "it",
+    "start": 10.65,
+    "end": 10.79
+   },
+   {
+    "w": "started",
+    "start": 10.78,
+    "end": 11.16
+   },
+   {
+    "w": "shutting",
+    "start": 11.15,
+    "end": 11.58
+   },
+   {
+    "w": "off",
+    "start": 11.57,
+    "end": 11.76
+   },
+   {
+    "w": "for",
+    "start": 11.75,
+    "end": 11.94
+   },
+   {
+    "w": "seconds,",
+    "start": 11.93,
+    "end": 12.4
+   },
+   {
+    "w": "with",
+    "start": 12.39,
+    "end": 12.63
+   },
+   {
+    "w": "his",
+    "start": 12.62,
+    "end": 12.81
+   },
+   {
+    "w": "eyes",
+    "start": 12.8,
+    "end": 13.04
+   },
+   {
+    "w": "still",
+    "start": 13.03,
+    "end": 13.33
+   },
+   {
+    "w": "open.",
+    "start": 13.32,
+    "end": 13.63
+   }
+  ]
+ },
+ {
+  "text": "By day four, he thought a street sign was a person.",
+  "start": 13.82,
+  "end": 16.6,
+  "words": [
+   {
+    "w": "By",
+    "start": 13.82,
+    "end": 13.97
+   },
+   {
+    "w": "day",
+    "start": 13.96,
+    "end": 14.17
+   },
+   {
+    "w": "four,",
+    "start": 14.16,
+    "end": 14.47
+   },
+   {
+    "w": "he",
+    "start": 14.46,
+    "end": 14.62
+   },
+   {
+    "w": "thought",
+    "start": 14.61,
+    "end": 15.21
+   },
+   {
+    "w": "a",
+    "start": 15.2,
+    "end": 15.31
+   },
+   {
+    "w": "street",
+    "start": 15.3,
+    "end": 15.65
+   },
+   {
+    "w": "sign",
+    "start": 15.64,
+    "end": 15.9
+   },
+   {
+    "w": "was",
+    "start": 15.89,
+    "end": 16.1
+   },
+   {
+    "w": "a",
+    "start": 16.09,
+    "end": 16.2
+   },
+   {
+    "w": "person.",
+    "start": 16.19,
+    "end": 16.6
+   }
+  ]
+ },
+ {
+  "text": "Without sleep, his brain couldn't flush out its toxic waste.",
+  "start": 16.8,
+  "end": 20.01,
+  "words": [
+   {
+    "w": "Without",
+    "start": 16.8,
+    "end": 17.21
+   },
+   {
+    "w": "sleep,",
+    "start": 17.2,
+    "end": 17.56
+   },
+   {
+    "w": "his",
+    "start": 17.55,
+    "end": 17.85
+   },
+   {
+    "w": "brain",
+    "start": 17.84,
+    "end": 18.15
+   },
+   {
+    "w": "couldn't",
+    "start": 18.14,
+    "end": 18.61
+   },
+   {
+    "w": "flush",
+    "start": 18.6,
+    "end": 18.91
+   },
+   {
+    "w": "out",
+    "start": 18.9,
+    "end": 19.11
+   },
+   {
+    "w": "its",
+    "start": 19.1,
+    "end": 19.34
+   },
+   {
+    "w": "toxic",
+    "start": 19.33,
+    "end": 19.64
+   },
+   {
+    "w": "waste.",
+    "start": 19.63,
+    "end": 20.01
+   }
+  ]
+ },
+ {
+  "text": "When he finally crashed, he slept fourteen hours straight.",
+  "start": 20.21,
+  "end": 22.95,
+  "words": [
+   {
+    "w": "When",
+    "start": 20.21,
+    "end": 20.43
+   },
+   {
+    "w": "he",
+    "start": 20.42,
+    "end": 20.56
+   },
+   {
+    "w": "finally",
+    "start": 20.55,
+    "end": 20.9
+   },
+   {
+    "w": "crashed,",
+    "start": 20.89,
+    "end": 21.29
+   },
+   {
+    "w": "he",
+    "start": 21.28,
+    "end": 21.61
+   },
+   {
+    "w": "slept",
+    "start": 21.6,
+    "end": 21.87
+   },
+   {
+    "w": "fourteen",
+    "start": 21.86,
+    "end": 22.26
+   },
+   {
+    "w": "hours",
+    "start": 22.25,
+    "end": 22.51
+   },
+   {
+    "w": "straight.",
+    "start": 22.5,
+    "end": 22.95
+   }
+  ]
+ },
+ {
+  "text": "Guinness won't even accept this record anymore, because nobody should end up like...",
+  "start": 23.14,
+  "end": 27.02,
+  "words": [
+   {
+    "w": "Guinness",
+    "start": 23.14,
+    "end": 23.53
+   },
+   {
+    "w": "won't",
+    "start": 23.52,
+    "end": 23.79
+   },
+   {
+    "w": "even",
+    "start": 23.78,
+    "end": 24.0
+   },
+   {
+    "w": "accept",
+    "start": 23.99,
+    "end": 24.36
+   },
+   {
+    "w": "this",
+    "start": 24.35,
+    "end": 24.58
+   },
+   {
+    "w": "record",
+    "start": 24.57,
+    "end": 24.88
+   },
+   {
+    "w": "anymore,",
+    "start": 24.87,
+    "end": 25.26
+   },
+   {
+    "w": "because",
+    "start": 25.25,
+    "end": 25.6
+   },
+   {
+    "w": "nobody",
+    "start": 25.59,
+    "end": 26.07
+   },
+   {
+    "w": "should",
+    "start": 26.06,
+    "end": 26.37
+   },
+   {
+    "w": "end",
+    "start": 26.36,
+    "end": 26.54
+   },
+   {
+    "w": "up",
+    "start": 26.53,
+    "end": 26.67
+   },
+   {
+    "w": "like...",
+    "start": 26.66,
+    "end": 27.02
+   }
+  ]
+ }
+]

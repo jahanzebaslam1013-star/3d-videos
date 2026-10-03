@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,ZkitCaption,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,1,0,1,5,3,2,70,70,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}This boy hasn't
+Dialogue: 0,0:00:00.76,0:00:01.54,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}slept in {\c&H3AD2FF&}eleven{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.54,0:00:02.01,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}days.
+Dialogue: 0,0:00:02.04,0:00:03.53,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Back in 1964,
+Dialogue: 0,0:00:03.53,0:00:04.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Randy Gardner stayed
+Dialogue: 0,0:00:04.80,0:00:06.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}awake for 264
+Dialogue: 0,0:00:06.50,0:00:07.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}hours.
+Dialogue: 0,0:00:07.08,0:00:07.83,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}After just one
+Dialogue: 0,0:00:07.83,0:00:08.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}day,
+Dialogue: 0,0:00:08.08,0:00:09.01,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}his brain worked
+Dialogue: 0,0:00:09.01,0:00:09.66,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}like a {\c&H3AD2FF&}drunk{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.66,0:00:10.34,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}driver's.
+Dialogue: 0,0:00:10.38,0:00:11.11,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Then it started
+Dialogue: 0,0:00:11.11,0:00:11.89,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}shutting{\c&HFFFFFF&} off for
+Dialogue: 0,0:00:11.89,0:00:12.35,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}seconds,
+Dialogue: 0,0:00:12.35,0:00:12.99,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}with his eyes
+Dialogue: 0,0:00:12.99,0:00:13.75,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}still {\c&H3AD2FF&}open.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.78,0:00:14.42,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}By day four,
+Dialogue: 0,0:00:14.42,0:00:15.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}he thought a
+Dialogue: 0,0:00:15.26,0:00:16.05,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}street sign was
+Dialogue: 0,0:00:16.05,0:00:16.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}a {\c&H3AD2FF&}person.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.76,0:00:17.51,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Without sleep,
+Dialogue: 0,0:00:17.51,0:00:18.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}his brain couldn't
+Dialogue: 0,0:00:18.56,0:00:19.29,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}flush out its
+Dialogue: 0,0:00:19.29,0:00:20.13,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}toxic{\c&HFFFFFF&} waste.
+Dialogue: 0,0:00:20.17,0:00:20.85,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}When he finally
+Dialogue: 0,0:00:20.85,0:00:21.24,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}crashed,
+Dialogue: 0,0:00:21.24,0:00:22.21,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}he slept {\c&H3AD2FF&}fourteen{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.21,0:00:23.07,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}hours straight.
+Dialogue: 0,0:00:23.10,0:00:23.95,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}Guinness{\c&HFFFFFF&} won't even
+Dialogue: 0,0:00:23.95,0:00:24.83,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}accept this record
+Dialogue: 0,0:00:24.83,0:00:25.21,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}anymore,
+Dialogue: 0,0:00:25.21,0:00:26.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}because {\c&H3AD2FF&}nobody{\c&HFFFFFF&} should
+Dialogue: 0,0:00:26.32,0:00:27.14,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}end up like...
