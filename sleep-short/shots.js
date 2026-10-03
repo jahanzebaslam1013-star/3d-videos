@@ -259,7 +259,7 @@ shot(L(6)-.1,()=>{const st=L(6)-.1;const B=bedroom();const k=kid(B.s);k.tired(1)
   return{s:B.s,u(t){const q=clamp((t-tC)/.32),f=q*q;const bo=t>tC+.32?Math.sin((t-tC-.32)*22)*Math.exp(-(t-tC-.32)*9)*.05:0;
     k.root.position.set(0,lerp(.95,.8,f)+bo,lerp(0,.35,f));k.torso.rotation.x=lerp(Math.sin(t*2.5)*.05,Math.PI/2,f);k.legs.forEach(l=>l.rotation.x=lerp(0,.5,f));
     k.arms.forEach(a=>{a.sh.rotation.x=lerp(0,-2.6,f);a.sh.rotation.z=a.s*lerp(.12,.5,f)});k.lid(lerp(.8,1,f));
-    camS(38,[lerp(6.3,5.9,ease(t/1.5)),lerp(2.1,1.9,ease(t/1.5)),-.45],[1.25,1.0,-.5],t,[tC+.3],.06)}}});
+    camS(40,[lerp(8.6,8.2,ease(t/1.5)),lerp(1.9,1.75,ease(t/1.5)),-.45],[1.25,1.0,-.45],t,[tC+.3],.06)}}});
 
 // 10. "…he slept fourteen hours straight." — top view, Zzz, clock racing
 shot(wordT(6,'slept')-.05,()=>{const st=wordT(6,'slept')-.05;const B=bedroom();const k=kid(B.s);k.root.rotation.x=-Math.PI/2;k.root.position.set(1.25,.82,-1.25);k.lid(1);k.face('happy');
