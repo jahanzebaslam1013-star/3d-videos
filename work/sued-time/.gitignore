@@ -1,0 +1,6 @@
+node_modules/
+chunks/
+test/
+tts_models/
+*.log
+fonts/

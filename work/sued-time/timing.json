@@ -1,0 +1,509 @@
+[
+ {
+  "text": "Last Tuesday, a guy walked into the Supreme Court and officially filed a lawsuit against Time.",
+  "start": 0.05,
+  "end": 4.71,
+  "words": [
+   {
+    "w": "Last",
+    "start": 0.05,
+    "end": 0.28
+   },
+   {
+    "w": "Tuesday,",
+    "start": 0.27,
+    "end": 0.72
+   },
+   {
+    "w": "a",
+    "start": 0.71,
+    "end": 0.81
+   },
+   {
+    "w": "guy",
+    "start": 0.8,
+    "end": 0.99
+   },
+   {
+    "w": "walked",
+    "start": 0.98,
+    "end": 1.3
+   },
+   {
+    "w": "into",
+    "start": 1.29,
+    "end": 1.59
+   },
+   {
+    "w": "the",
+    "start": 1.58,
+    "end": 1.77
+   },
+   {
+    "w": "Supreme",
+    "start": 1.76,
+    "end": 2.21
+   },
+   {
+    "w": "Court",
+    "start": 2.2,
+    "end": 2.48
+   },
+   {
+    "w": "and",
+    "start": 2.47,
+    "end": 2.66
+   },
+   {
+    "w": "officially",
+    "start": 2.65,
+    "end": 3.31
+   },
+   {
+    "w": "filed",
+    "start": 3.3,
+    "end": 3.57
+   },
+   {
+    "w": "a",
+    "start": 3.56,
+    "end": 3.66
+   },
+   {
+    "w": "lawsuit",
+    "start": 3.65,
+    "end": 4.02
+   },
+   {
+    "w": "against",
+    "start": 4.01,
+    "end": 4.44
+   },
+   {
+    "w": "Time.",
+    "start": 4.43,
+    "end": 4.71
+   }
+  ]
+ },
+ {
+  "text": "His claim? Fraud and unfair business practices.",
+  "start": 4.87,
+  "end": 7.68,
+  "words": [
+   {
+    "w": "His",
+    "start": 4.87,
+    "end": 5.11
+   },
+   {
+    "w": "claim?",
+    "start": 5.1,
+    "end": 5.45
+   },
+   {
+    "w": "Fraud",
+    "start": 5.44,
+    "end": 5.87
+   },
+   {
+    "w": "and",
+    "start": 5.86,
+    "end": 6.06
+   },
+   {
+    "w": "unfair",
+    "start": 6.05,
+    "end": 6.48
+   },
+   {
+    "w": "business",
+    "start": 6.47,
+    "end": 6.92
+   },
+   {
+    "w": "practices.",
+    "start": 6.91,
+    "end": 7.68
+   }
+  ]
+ },
+ {
+  "text": "Exhibit A: work hours feel like forty days,",
+  "start": 7.8,
+  "end": 10.44,
+  "words": [
+   {
+    "w": "Exhibit",
+    "start": 7.8,
+    "end": 8.23
+   },
+   {
+    "w": "A:",
+    "start": 8.22,
+    "end": 8.39
+   },
+   {
+    "w": "work",
+    "start": 8.38,
+    "end": 8.74
+   },
+   {
+    "w": "hours",
+    "start": 8.73,
+    "end": 9.08
+   },
+   {
+    "w": "feel",
+    "start": 9.07,
+    "end": 9.41
+   },
+   {
+    "w": "like",
+    "start": 9.4,
+    "end": 9.79
+   },
+   {
+    "w": "forty",
+    "start": 9.78,
+    "end": 10.11
+   },
+   {
+    "w": "days,",
+    "start": 10.1,
+    "end": 10.44
+   }
+  ]
+ },
+ {
+  "text": "but weekends expire in four seconds flat.",
+  "start": 10.6,
+  "end": 12.95,
+  "words": [
+   {
+    "w": "but",
+    "start": 10.6,
+    "end": 10.8
+   },
+   {
+    "w": "weekends",
+    "start": 10.79,
+    "end": 11.26
+   },
+   {
+    "w": "expire",
+    "start": 11.25,
+    "end": 11.67
+   },
+   {
+    "w": "in",
+    "start": 11.66,
+    "end": 11.81
+   },
+   {
+    "w": "four",
+    "start": 11.8,
+    "end": 12.14
+   },
+   {
+    "w": "seconds",
+    "start": 12.13,
+    "end": 12.65
+   },
+   {
+    "w": "flat.",
+    "start": 12.64,
+    "end": 12.95
+   }
+  ]
+ },
+ {
+  "text": "The judge actually subpoenaed Father Time.",
+  "start": 13.07,
+  "end": 15.14,
+  "words": [
+   {
+    "w": "The",
+    "start": 13.07,
+    "end": 13.25
+   },
+   {
+    "w": "judge",
+    "start": 13.24,
+    "end": 13.52
+   },
+   {
+    "w": "actually",
+    "start": 13.51,
+    "end": 13.91
+   },
+   {
+    "w": "subpoenaed",
+    "start": 13.9,
+    "end": 14.52
+   },
+   {
+    "w": "Father",
+    "start": 14.51,
+    "end": 14.87
+   },
+   {
+    "w": "Time.",
+    "start": 14.86,
+    "end": 15.14
+   }
+  ]
+ },
+ {
+  "text": "But Time didn't show up, stating he was running late.",
+  "start": 15.32,
+  "end": 17.89,
+  "words": [
+   {
+    "w": "But",
+    "start": 15.32,
+    "end": 15.57
+   },
+   {
+    "w": "Time",
+    "start": 15.56,
+    "end": 15.8
+   },
+   {
+    "w": "didn't",
+    "start": 15.79,
+    "end": 16.11
+   },
+   {
+    "w": "show",
+    "start": 16.1,
+    "end": 16.33
+   },
+   {
+    "w": "up,",
+    "start": 16.32,
+    "end": 16.51
+   },
+   {
+    "w": "stating",
+    "start": 16.5,
+    "end": 16.95
+   },
+   {
+    "w": "he",
+    "start": 16.94,
+    "end": 17.08
+   },
+   {
+    "w": "was",
+    "start": 17.07,
+    "end": 17.26
+   },
+   {
+    "w": "running",
+    "start": 17.25,
+    "end": 17.62
+   },
+   {
+    "w": "late.",
+    "start": 17.61,
+    "end": 17.89
+   }
+  ]
+ },
+ {
+  "text": "By default, the judge granted a settlement:",
+  "start": 18.05,
+  "end": 20.04,
+  "words": [
+   {
+    "w": "By",
+    "start": 18.05,
+    "end": 18.18
+   },
+   {
+    "w": "default,",
+    "start": 18.17,
+    "end": 18.63
+   },
+   {
+    "w": "the",
+    "start": 18.62,
+    "end": 18.86
+   },
+   {
+    "w": "judge",
+    "start": 18.85,
+    "end": 19.12
+   },
+   {
+    "w": "granted",
+    "start": 19.11,
+    "end": 19.45
+   },
+   {
+    "w": "a",
+    "start": 19.44,
+    "end": 19.53
+   },
+   {
+    "w": "settlement:",
+    "start": 19.52,
+    "end": 20.04
+   }
+  ]
+ },
+ {
+  "text": "Sundays are now legally forty-eight hours long...",
+  "start": 20.18,
+  "end": 21.6,
+  "words": [
+   {
+    "w": "Sundays",
+    "start": 20.18,
+    "end": 20.41
+   },
+   {
+    "w": "are",
+    "start": 20.4,
+    "end": 20.52
+   },
+   {
+    "w": "now",
+    "start": 20.51,
+    "end": 20.64
+   },
+   {
+    "w": "legally",
+    "start": 20.63,
+    "end": 20.86
+   },
+   {
+    "w": "forty-eight",
+    "start": 20.85,
+    "end": 21.2
+   },
+   {
+    "w": "hours",
+    "start": 21.19,
+    "end": 21.37
+   },
+   {
+    "w": "long...",
+    "start": 21.36,
+    "end": 21.6
+   }
+  ]
+ },
+ {
+  "text": "but Mondays start twice as early.",
+  "start": 21.7,
+  "end": 22.81,
+  "words": [
+   {
+    "w": "but",
+    "start": 21.7,
+    "end": 21.83
+   },
+   {
+    "w": "Mondays",
+    "start": 21.82,
+    "end": 22.09
+   },
+   {
+    "w": "start",
+    "start": 22.08,
+    "end": 22.29
+   },
+   {
+    "w": "twice",
+    "start": 22.28,
+    "end": 22.48
+   },
+   {
+    "w": "as",
+    "start": 22.47,
+    "end": 22.58
+   },
+   {
+    "w": "early.",
+    "start": 22.57,
+    "end": 22.81
+   }
+  ]
+ },
+ {
+  "text": "Would you sign that deal?",
+  "start": 23.04,
+  "end": 24.69,
+  "words": [
+   {
+    "w": "Would",
+    "start": 23.04,
+    "end": 23.4
+   },
+   {
+    "w": "you",
+    "start": 23.39,
+    "end": 23.64
+   },
+   {
+    "w": "sign",
+    "start": 23.63,
+    "end": 24.03
+   },
+   {
+    "w": "that",
+    "start": 24.02,
+    "end": 24.33
+   },
+   {
+    "w": "deal?",
+    "start": 24.32,
+    "end": 24.69
+   }
+  ]
+ },
+ {
+  "text": "He hated the compromise so much, that...",
+  "start": 24.83,
+  "end": 28.09,
+  "words": [
+   {
+    "w": "He",
+    "start": 24.83,
+    "end": 25.07
+   },
+   {
+    "w": "hated",
+    "start": 25.06,
+    "end": 25.53
+   },
+   {
+    "w": "the",
+    "start": 25.52,
+    "end": 25.84
+   },
+   {
+    "w": "compromise",
+    "start": 25.83,
+    "end": 26.77
+   },
+   {
+    "w": "so",
+    "start": 26.76,
+    "end": 27.0
+   },
+   {
+    "w": "much,",
+    "start": 26.99,
+    "end": 27.47
+   },
+   {
+    "w": "that...",
+    "start": 27.46,
+    "end": 28.09
+   }
+  ]
+ }
+]
