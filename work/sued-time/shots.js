@@ -34,7 +34,7 @@ function folder(p,w=1.15,h=.85,t=.2){const g=grp(p);box(g,w,h,t,0xd9a94e,0,0,0);
   lb.position.z=t/2+.025;return g}
 function canvasTexOnce(w,h,draw){const c=canvasTex(w,h,draw);c.draw();return c.tex}
 function stamp(p,txt,w=1.2,col='#d23a2a'){const m=label(p,'',w,w*.38,{});m.material.map=canvasTexOnce(512,196,(g,W,H)=>{g.strokeStyle=col;g.lineWidth=16;g.strokeRect(10,10,W-20,H-20);
-  g.fillStyle=col;g.font='900 116px M';g.textAlign='center';g.textBaseline='middle';g.fillText(txt,W/2,H/2+6)});return m}
+  g.fillStyle=col;g.font='900 116px M';const fs=Math.floor(116*Math.min(1,(W-70)/g.measureText(txt).width));g.font=`900 ${fs}px M`;g.textAlign='center';g.textBaseline='middle';g.fillText(txt,W/2,H/2+6)});return m}
 function sign(p,txt,w,col='#d23a2a',fg='#fff',fs=110){const m=label(p,'',w,w*.36,{});m.material.map=canvasTexOnce(560,200,(g,W,H)=>{g.fillStyle=col;g.beginPath();g.roundRect(6,6,W-12,H-12,36);g.fill();
   g.strokeStyle='#fff';g.lineWidth=8;g.beginPath();g.roundRect(16,16,W-32,H-32,28);g.stroke();g.fillStyle=fg;g.font=`900 ${fs}px M`;g.textAlign='center';g.textBaseline='middle';g.fillText(txt,W/2,H/2+6)});return m}
 function bub(p,lines,w=2,fs=84){const m=label(p,'',w,w*.62,{});m.material.map=canvasTexOnce(560,348,(g,W,H)=>{g.fillStyle='#fff';g.strokeStyle='#111';g.lineWidth=8;
@@ -157,13 +157,13 @@ shot(L(3)-.05,()=>{const s=room();const desk=grp(s,0,0,.2);box(desk,2.4,.1,1.1,0
   for(let i=0;i<6;i++)box(desk,.5,.04,.65,i%2?0xfbf8ef:0xeee8d8,.8,1.02+i*.045,.1);
   const m=makeMan(s);m.root.position.set(0,.47,-.55);m.legs.rotation.x=0;m.face('sad');
   const ck=wallClock(s,.55,'grumpy');ck.position.set(.1,3.35,-3.1);
-  const ex=sign(s,'EXHIBIT A',1.6,'#1b2330','#ffd52e',92);
+  const ex=sign(s,'EXHIBIT A',1.2,'#1b2330','#ffd52e',92);
   const cal=label(s,'',.95,1.1,{});cal.material.map=canvasTexOnce(400,460,(g,W,H)=>{g.fillStyle=PAPER;g.fillRect(0,0,W,H);g.fillStyle='#d23a2a';g.fillRect(0,0,W,110);
     g.fillStyle='#fff';g.font='900 64px M';g.textAlign='center';g.fillText('WORK',W/2,80);g.fillStyle='#1b2330';g.font='900 150px M';g.fillText('40',W/2,300);g.font='800 60px M';g.fillText('DAYS',W/2,400)});
   const t0=L(3)-.05,tf=wordT(3,'forty')-t0;
   return{s,u(t){ck.set(-t*1.4+2.0,'grumpy');m.arms[0].sh.rotation.x=-1.9;m.arms[0].el.rotation.x=-1.6;m.head.rotation.z=.18;m.torso.rotation.x=.12;
     m.arms[1].sh.rotation.x=-.9;m.head.rotation.x=Math.sin(t*1.3)*.04;
-    ex.visible=true;ex.scale.setScalar(pop(t,.05));ex.position.set(-.35,2.8,.9);face(ex);
+    ex.visible=true;ex.scale.setScalar(pop(t,.05));ex.position.set(-.15,2.85,.9);face(ex);
     cal.visible=t>tf;cal.scale.setScalar(pop(t,tf));cal.position.set(1.05,2.55,-2.0);cal.rotation.z=-.08;
     const e=ease(t/2.9);cam(44,[lerp(.5,.3,e),2.3,lerp(5.4,4.7,e)],[0,2.25,-1])}}});
 
@@ -205,8 +205,8 @@ shot(wordT(5,'father')-.03,()=>{const R=court({man:false});const {s,stand}=R;
   const pl=label(stand,'',.95,.22,{});pl.material.map=canvasTexOnce(512,120,(g,W,H)=>{g.fillStyle='#1b2330';g.fillRect(0,0,W,H);g.fillStyle='#ffd52e';g.font='900 60px M';g.textAlign='center';g.textBaseline='middle';g.fillText('FATHER TIME',W/2,H/2+4)});
   pl.position.set(0,1.45,-.4);pl.rotation.y=PI;
   const spot=new THREE.SpotLight(0xfff2c8,40,10,.45,.5,1.2);spot.position.set(-2.4,5.5,.5);spot.target=stand;s.add(spot);
-  const ns=stamp(s,'NO SHOW',1.5);const t0=wordT(5,'father')-.03,tn=wordT(6,'show')-t0;
-  return{s,u(t){ns.visible=t>tn;const k=clamp((t-tn)/.12);ns.scale.setScalar(lerp(1.8,1,k));ns.position.set(-3.0,1.6,1.6);face(ns,.2);
+  const ns=stamp(s,'NO SHOW',.8);const t0=wordT(5,'father')-.03,tn=wordT(6,'show')-t0;
+  return{s,u(t){ns.visible=t>tn;const k=clamp((t-tn)/.12);ns.scale.setScalar(lerp(1.8,1,k));ns.position.set(-2.85,1.8,2.2);face(ns,.2);
     const e=ease(t/2.3);cam(42,[lerp(-.6,-1.0,e),lerp(2.3,2.1,e),lerp(-1.6,-.9,e)],[-3.0,1.3,2.4])}}});
 
 // ===== S8: "stating he was running late." — Father Time strolling, unbothered
@@ -219,7 +219,7 @@ shot(wordT(6,'stating')-.05,()=>{const s=skyScene('#f6c58a');lights(s,{sky:0xffe
   const ft=fatherTime(s);const b=bub(s,['RUNNING','LATE'],1.75,90);const t0=wordT(6,'stating')-.05,tr=wordT(6,'running')-t0;
   return{s,u(t){const x=lerp(-1.2,-.4,t/1.4);ft.position.set(x,Math.abs(Math.sin(t*4))*.04,.3);ft.rotation.y=.35;ft.rotation.z=Math.sin(t*4)*.03;
     ft.userData.arm.rotation.x=Math.sin(t*2)*.08;
-    b.visible=t>tr;b.scale.setScalar(pop(t,tr));b.position.set(x+1.05,3.2,.4);face(b);
+    b.visible=t>tr;b.scale.setScalar(pop(t,tr));b.position.set(x+.75,3.2,.4);face(b);
     cam(44,[x+.9,2.0,6.2-t*.3],[x+.5,1.9,0])}}});
 
 // ===== S9: "By default, the judge granted a settlement:" — gavel bang + flying papers
