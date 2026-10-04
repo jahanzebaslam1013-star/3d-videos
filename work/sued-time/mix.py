@@ -21,7 +21,12 @@ total = cues.get("total") or len(vo) / S.SR + 1.5
 N = int(total * S.SR)
 v = np.zeros(N); S.put(v, vo, cues.get("vo_offset", 0.0))
 v = S.hp(v, 70); v = v / (np.max(np.abs(v)) + 1e-9) * 0.9
-mus = S.music_bed([tuple(x) for x in cues.get("music", [[0, "mystery"]])], total)[:N]
+LOOPX = 0.6 if cues.get("loop") else 0.0
+mus = S.music_bed([tuple(x) for x in cues.get("music", [[0, "mystery"]])], total + (1.5 if LOOPX else 0))
+if LOOPX:  # fold the music's continuation past the end back onto the start -> seamless loop
+    X = int(LOOPX * S.SR); r = np.linspace(0, 1, X); tail = mus[N:N + X].copy(); mus = mus[:N].copy()
+    mus[:X] = mus[:X] * r + tail * (1 - r)
+mus = mus[:N]
 mus = np.pad(mus, (0, N - len(mus)))
 e = np.abs(v); k = int(0.12 * S.SR); e = np.convolve(e, np.ones(k) / k, "same"); e /= e.max() + 1e-9
 mus = mus / (np.max(np.abs(mus)) + 1e-9) * cues.get("music_level", 0.22) * (1 - 0.55 * np.clip(e * 3, 0, 1))

@@ -24,7 +24,7 @@ async def main():
     chunk = float(sys.argv[sys.argv.index("--chunk") + 1]) if "--chunk" in sys.argv else 20
     ensure_server()
     async with async_playwright() as p:
-        b = await p.chromium.launch(args=ARGS)
+        b = await p.chromium.launch(args=ARGS, executable_path=os.environ.get("CHROME", "/opt/pw-browsers/chromium"))
         pg = await b.new_page(viewport={"width": 1080, "height": 1920})
         pg.on("pageerror", lambda e: print("PAGEERR", e, flush=True))
         pg.on("console", lambda m: print("console:", m.text, flush=True) if m.type == "error" else None)
