@@ -1,0 +1,52 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,ZkitCaption,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,1,0,1,5,3,2,70,70,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.63,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}If you swapped
+Dialogue: 0,0:00:00.63,0:00:01.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}every single drop
+Dialogue: 0,0:00:01.50,0:00:02.13,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}of water for
+Dialogue: 0,0:00:02.13,0:00:03.02,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}coffee{\c&HFFFFFF&} for {\c&H3AD2FF&}three{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.02,0:00:03.67,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}days straight,
+Dialogue: 0,0:00:03.67,0:00:04.81,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}here's what happens
+Dialogue: 0,0:00:04.81,0:00:05.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}inside your body.
+Dialogue: 0,0:00:05.83,0:00:06.26,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}At first,
+Dialogue: 0,0:00:06.26,0:00:07.53,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}caffeine blocks {\c&H3AD2FF&}adenosine,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.53,0:00:08.49,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}the chemical that
+Dialogue: 0,0:00:08.49,0:00:09.05,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}tells you to
+Dialogue: 0,0:00:09.05,0:00:09.53,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}sleep.
+Dialogue: 0,0:00:09.80,0:00:11.05,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Your {\c&H3AD2FF&}dopamine{\c&HFFFFFF&} spikes,
+Dialogue: 0,0:00:11.05,0:00:11.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}focus sharpens,
+Dialogue: 0,0:00:11.88,0:00:12.61,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}and you feel
+Dialogue: 0,0:00:12.61,0:00:13.37,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}INVINCIBLE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.42,0:00:14.05,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}By day {\c&H3AD2FF&}two,{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.05,0:00:15.12,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}the diuretic effect
+Dialogue: 0,0:00:15.12,0:00:16.06,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}and pure {\c&H3AD2FF&}acidity{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.06,0:00:16.73,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}kick in.
+Dialogue: 0,0:00:16.91,0:00:17.78,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Your stomach lining
+Dialogue: 0,0:00:17.78,0:00:18.55,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}gets irritated,
+Dialogue: 0,0:00:18.55,0:00:19.50,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}hand {\c&H3AD2FF&}tremors{\c&HFFFFFF&} start,
+Dialogue: 0,0:00:19.50,0:00:20.18,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}and your heart
+Dialogue: 0,0:00:20.18,0:00:21.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}rate enters sustained
+Dialogue: 0,0:00:21.20,0:00:21.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}overdrive.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.00,0:00:22.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}By day {\c&H3AD2FF&}three,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.80,0:00:24.28,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}massive caffeine overload
+Dialogue: 0,0:00:24.28,0:00:25.31,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}combined with zero
+Dialogue: 0,0:00:25.31,0:00:26.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}deep sleep can
+Dialogue: 0,0:00:26.16,0:00:27.67,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}trigger {\c&H3AD2FF&}hallucinations{\c&HFFFFFF&} and
+Dialogue: 0,0:00:27.67,0:00:28.83,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}extreme {\c&H3AD2FF&}paranoia.{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.09,0:00:30.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Your brain completely
+Dialogue: 0,0:00:30.32,0:00:31.05,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3AD2FF&}overloads.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.08,0:00:31.57,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}How many {\c&H3AD2FF&}cups{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.57,0:00:32.07,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}of {\c&H3AD2FF&}coffee{\c&HFFFFFF&} do
+Dialogue: 0,0:00:32.07,0:00:32.49,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}you drink a
+Dialogue: 0,0:00:32.49,0:00:32.67,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}day?
+Dialogue: 0,0:00:32.67,0:00:33.30,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Let me know
+Dialogue: 0,0:00:33.30,0:00:33.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}below.
