@@ -1,0 +1,8 @@
+p0.mp4
+p1.mp4
+video.mp4
+l.txt
+*.log
+*.wav
+test_*.png
+__pycache__/
