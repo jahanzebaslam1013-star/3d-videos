@@ -30,28 +30,35 @@ The thumbnail you already have fits the niche: purple choking leader, sweating h
 
 ## Description (paste)
 ```
-You just got the most "honoured" job in the country: personal bodyguard to President Viktor Saran.
-Big salary. A black suit. A house for your parents. Only three rules.
-Three years later, you're standing next to him when everything goes wrong… and someone has to take the blame.
+The president stops breathing. Five minutes ago, you handed him that drink.
 
-POV: You're a Dictator's Personal Bodyguard — an animated second-person story.
+You've spent three years as President Viktor Saran's personal bodyguard. The job came with a free suit, an apartment, your mother's medical treatment and a university place for your brother. Your mentor, Colonel Marek, gave you three rules. Then Marek disappeared.
+
+Now the man you swore to protect is collapsing on live TV… and every camera in the room saw you hand him the glass.
+
+POV: You're a Dictator's Personal Bodyguard: an animated second-person story.
 
 ⏱ Chapters
 00:00 Freeze.
-00:30 3 Years Earlier — The Job Offer
-02:10 The Rules
-04:20 Warning Signs
-06:30 The Day Everything Went Wrong
-08:00 The Truth Gets Rewritten
+00:28 Three Years Earlier
+01:12 The Three Rules
+02:07 The Boring Part of the Job
+03:10 We Saved Your Piece
+04:27 Marek Is Arrested
+05:13 The Banquet
+06:16 Nine Hours of Questions
+06:49 The Story Gets Rewritten
+07:53 The Replacement
+08:15 The Medal
 
-This story is fictional. Any country, leader or event is made up. No real politicians are depicted.
+This story is fictional. The country, the leader and every event are made up.
 
 New POV story every week, so subscribe so you don't miss the next one.
-What job should you survive next? Tell me in the comments 👇
+Would you have taken the job? 👇
 
 #POV #AnimatedStory #Storytime
 ```
-**Fix the chapter times** to your final edit. The first chapter has to start at 00:00, and there must be at least 3 chapters, each 10 seconds or longer.
+The chapter times come from the real audio. Check that your final video starts at the same moment as this audio file. If the video has an intro, add that offset to the times.
 
 ## Tags (paste)
 ```
@@ -59,7 +66,7 @@ pov, pov you're, pov story, second person story, animated story, dictator, dicta
 ```
 
 ## Upload settings that matter for the right audience
-- **Captions:** upload the English .srt (Subtitles → Add → Upload file → "With timing"). YouTube then reads the whole story word for word instead of guessing from auto-captions.
+- **Captions:** upload `POV_Dictators_Bodyguard_EN.srt` (Subtitles → Add → Upload file → "With timing"). YouTube then reads the whole story word for word instead of guessing from auto-captions.
 - **Language:** set the video language and the caption language to English.
 - **Category:** Film & Animation.
 - **Made for kids: NO.** A dictator storyline isn't kids' content, and choosing "yes" switches off comments and the recommendation features you need.
