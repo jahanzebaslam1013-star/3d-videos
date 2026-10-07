@@ -1,6 +1,6 @@
 // "He Sued Sleep" — loop short (no music, no subtitles). Last frame of the final shot == first frame of shot 0.
 import {THREE,renderer,W,H,camera,cam,loadTiming,run,clamp,ease,eout,back,lerp,V,box,cyl,grp,mat,lights,makeMan,flail,paintTex,textTex,
-  canvasTex,label,skyScene,cloud,room,pajamaMan,setSeed,rnd,RB,SPH,sm,tree,nightSky,speedLines} from './engine.js';
+  canvasTex,label,skyScene,cloud,room,pajamaMan,setSeed,rnd,RB,SPH,sm,tree,nightSky,speedLines,fitToFrame} from './engine.js';
 const T=await loadTiming(); const T0=0;
 const L=i=>T[i].start+T0, E=i=>T[i].end+T0;
 const wordT=(i,w)=>{const x=T[i].words.find(q=>q.w.toLowerCase().replace(/[^a-z0-9]/g,'').startsWith(w));if(!x)throw new Error('word '+w);return x.start+T0};
@@ -9,7 +9,7 @@ const LOOK=[];const face=(o,rz=0)=>LOOK.push([o,rz]);
 const shots=[];
 const shot=(start,build)=>shots.push({start,build:()=>{const I=build();const u=I.u;I.u=t=>{LOOK.length=0;
   renderer.setScissorTest(false);renderer.setViewport(0,0,W,H);renderer.autoClear=true;renderer.setClearColor(0x000000,1);
-  u(t);for(const [o,rz] of LOOK){o.lookAt(camera.position);if(rz)o.rotateZ(rz)}};return I}});
+  u(t);camera.aspect=W/H;camera.updateProjectionMatrix();for(const [o,rz] of LOOK){o.lookAt(camera.position);if(rz)o.rotateZ(rz);fitToFrame(o)}};return I}});
 const shake=(t,t0,a=.12,d=.3)=>{const k=t-t0;if(k<0||k>d)return 0;return Math.sin(k*90)*a*(1-k/d)};
 const pop=(t,t0,d=.25)=>t<t0?0:back((t-t0)/d);
 const PAPER='#fbf8ef';
@@ -178,7 +178,7 @@ shot(L(2)-.06,()=>{const t0=L(2)-.06;const empty=new THREE.Scene();
     cof.visible=pt<0;if(t>tV+.3)zz(t,.25,2.05,.1,.9);else zz(-9,0,-50,0);
     dc2.scale.setScalar(t>tBut-.3?pop(t,tBut-.3):0);face(dc2);
     const sk=shake(t,tV+.1,.08);camB.position.set(.15+sk,2.05,lerp(2.4,2.15,ease((t-tBut)/3)));camB.lookAt(0,1.6,-.6);
-    face(dc);for(const [o,rz] of LOOK){o.lookAt((o===dc?camA:camB).position);if(rz)o.rotateZ(rz)}LOOK.length=0;
+    face(dc);for(const [o,rz] of LOOK){const c=o===dc?camA:camB;o.lookAt(c.position);if(rz)o.rotateZ(rz);fitToFrame(o,.08,c)}LOOK.length=0;
     // draw both halves ourselves, active half bright
     renderer.setScissorTest(true);renderer.autoClear=true;
     renderer.setViewport(0,H/2+6,W,H/2-6);renderer.setScissor(0,H/2+6,W,H/2-6);renderer.render(A,camA);

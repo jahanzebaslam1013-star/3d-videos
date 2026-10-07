@@ -1,11 +1,11 @@
 // "He Sued Time" — loop short. Last frame of the final shot == first frame of shot 0.
 import {THREE,camera,cam,loadTiming,run,clamp,ease,eout,back,lerp,V,box,cyl,grp,mat,lights,makeMan,flail,paintTex,textTex,
-  canvasTex,label,skyScene,cloud,beachWorld,lounger,palm,room,pajamaMan,setSeed,rnd,sunDisc} from './engine.js';
+  canvasTex,label,skyScene,cloud,beachWorld,lounger,palm,room,pajamaMan,setSeed,rnd,sunDisc,fitToFrame} from './engine.js';
 const T=await loadTiming(); const T0=0.05;
 const L=i=>T[i].start+T0, E=i=>T[i].end+T0;
 const wordT=(i,w)=>{const x=T[i].words.find(q=>q.w.toLowerCase().replace(/[^a-z0-9]/g,'').startsWith(w));return (x?x.start:T[i].start)+T0};
-const shots=[];const LOOK=[];const face=(o,rz=0)=>LOOK.push([o,rz]);
-const shot=(start,build)=>shots.push({start,build:()=>{const I=build();const u=I.u;I.u=t=>{LOOK.length=0;u(t);for(const [o,rz] of LOOK){o.lookAt(camera.position);if(rz)o.rotateZ(rz)}};return I}});
+const W=1080,H=1920;const shots=[];const LOOK=[];const face=(o,rz=0)=>LOOK.push([o,rz]);
+const shot=(start,build)=>shots.push({start,build:()=>{const I=build();const u=I.u;I.u=t=>{LOOK.length=0;u(t);camera.aspect=W/H;camera.updateProjectionMatrix();for(const [o,rz] of LOOK){o.lookAt(camera.position);if(rz)o.rotateZ(rz);fitToFrame(o)}};return I}});
 const END=E(T.length-1)+0.07;
 const PI=Math.PI;
 const shake=(t,t0,a=.12,d=.25)=>{const k=t-t0;if(k<0||k>d)return 0;return Math.sin(k*90)*a*(1-k/d)};

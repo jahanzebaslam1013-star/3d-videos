@@ -392,6 +392,25 @@ function studio(col){const s=new THREE.Scene();s.background=new THREE.Color(col)
 function confetti(s,n=80){const out=[];seed=12;const cols=[0xff5a2a,0x2f86d8,0x5cc06a,0xf2b33a,0x9b59b6];for(let i=0;i<n;i++){const m=new THREE.Mesh(new THREE.PlaneGeometry(.08,.14),new THREE.MeshBasicMaterial({color:cols[i%5],side:THREE.DoubleSide}));s.add(m);
   out.push({m,x:(rnd()-.5)*8,z:(rnd()-.5)*3,ph:rnd()*4,sp:.8+rnd()})}return t=>out.forEach(q=>{const y=4.5-((q.ph+t*q.sp)%5);q.m.position.set(q.x+Math.sin(t*2+q.ph)*.2,y,q.z);q.m.rotation.set(t*3+q.ph,t*2,q.ph)})}
 
+
+// ---------- frame safety: keep a sign/label fully inside the visible frame ----------
+// Projects the object's world bounding box to screen space; if it is bigger than the safe area
+// it is scaled down, and if it pokes past an edge it is slid back in. Call AFTER the camera is set.
+export function fitToFrame(o,margin=.08,cam_=camera){if(!o.visible)return;cam_.updateMatrixWorld();cam_.updateProjectionMatrix();
+  const lim=1-margin;
+  for(let pass=0;pass<2;pass++){o.updateMatrixWorld(true);const b=new THREE.Box3().setFromObject(o);if(b.isEmpty())return;
+    let x0=1e9,x1=-1e9,y0=1e9,y1=-1e9;
+    for(const x of[b.min.x,b.max.x])for(const y of[b.min.y,b.max.y])for(const z of[b.min.z,b.max.z]){const p=new THREE.Vector3(x,y,z).project(cam_);if(p.z>1||p.z<-1)return;
+      x0=Math.min(x0,p.x);x1=Math.max(x1,p.x);y0=Math.min(y0,p.y);y1=Math.max(y1,p.y)}
+    const w=x1-x0,h=y1-y0;const k=Math.min(1,2*lim/w,2*lim/h);
+    if(k<.999){o.scale.multiplyScalar(k);continue}
+    const cx=(x0+x1)/2,cy=(y0+y1)/2,hx=w/2,hy=h/2;
+    const dx=Math.min(lim-hx,Math.max(-lim+hx,cx))-cx,dy=Math.min(lim-hy,Math.max(-lim+hy,cy))-cy;
+    if(Math.abs(dx)<1e-4&&Math.abs(dy)<1e-4)return;
+    const wp=new THREE.Vector3();o.getWorldPosition(wp);const dist=wp.clone().sub(cam_.position).dot(cam_.getWorldDirection(new THREE.Vector3()));
+    const th=Math.tan(cam_.fov*Math.PI/360)*dist;const right=new THREE.Vector3(1,0,0).applyQuaternion(cam_.quaternion),up=new THREE.Vector3(0,1,0).applyQuaternion(cam_.quaternion);
+    wp.addScaledVector(right,dx*th*cam_.aspect).addScaledVector(up,dy*th);o.position.copy(o.parent?o.parent.worldToLocal(wp):wp)}}
+
 // ---------- runtime ----------
 export async function loadTiming(){return await (await fetch('timing.json')).json()}
 // shots: [{start:sec, build:()=>({s:Scene, u:(localT)=>void})}], END: total seconds
