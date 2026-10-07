@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,ZkitCaption,92,&H00FFFFFF,&H00FFFFFF,&H00000000,&H78000000,0,0,0,0,100,100,1,0,1,5,3,2,70,70,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.04,0:00:00.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}This man just
+Dialogue: 0,0:00:00.88,0:00:02.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3A5BFF&}sued{\c&HFFFFFF&} the {\c&H3A5BFF&}Sun.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.20,0:00:03.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}His {\c&H3A5BFF&}sunburn{\c&HFFFFFF&} was
+Dialogue: 0,0:00:03.08,0:00:03.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}so bad,
+Dialogue: 0,0:00:03.92,0:00:04.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}his face {\c&H3A5BFF&}glowed{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.72,0:00:05.96,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}in the dark.
+Dialogue: 0,0:00:05.94,0:00:06.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}His lawyer called
+Dialogue: 0,0:00:06.68,0:00:07.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}it a long-range
+Dialogue: 0,0:00:07.64,0:00:08.40,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}attack,
+Dialogue: 0,0:00:08.40,0:00:09.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}from 93 {\c&H3A5BFF&}million{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.80,0:00:11.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}miles away.
+Dialogue: 0,0:00:11.00,0:00:11.64,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}The {\c&H3A5BFF&}Sun{\c&HFFFFFF&} showed
+Dialogue: 0,0:00:11.64,0:00:12.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}up to court...
+Dialogue: 0,0:00:12.56,0:00:13.80,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}and instantly {\c&H3A5BFF&}melted{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.80,0:00:15.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}the judge's {\c&H3A5BFF&}gavel.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.08,0:00:15.88,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}The jury needed
+Dialogue: 0,0:00:15.88,0:00:17.16,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3A5BFF&}sunglasses.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.04,0:00:18.00,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}The stenographer got
+Dialogue: 0,0:00:18.00,0:00:19.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}a {\c&H3A5BFF&}tan.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.00,0:00:19.56,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}So the judge
+Dialogue: 0,0:00:19.56,0:00:20.20,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}ruled:
+Dialogue: 0,0:00:20.20,0:00:20.84,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}the {\c&H3A5BFF&}Sun{\c&HFFFFFF&} must
+Dialogue: 0,0:00:20.84,0:00:21.72,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}stay {\c&H3A5BFF&}twice{\c&HFFFFFF&} as
+Dialogue: 0,0:00:21.72,0:00:22.76,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}far away.
+Dialogue: 0,0:00:22.68,0:00:24.32,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Problem solved...
+Dialogue: 0,0:00:24.32,0:00:25.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}except now it's
+Dialogue: 0,0:00:25.08,0:00:26.68,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3A5BFF&}snowing{\c&HFFFFFF&} in {\c&H3A5BFF&}July.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.60,0:00:27.08,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}Would you take
+Dialogue: 0,0:00:27.08,0:00:28.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}that deal?
+Dialogue: 0,0:00:28.04,0:00:28.92,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}{\c&H3A5BFF&}Yes{\c&HFFFFFF&} or {\c&H3A5BFF&}no?{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.31,0:00:31.00,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}He got {\c&H3A5BFF&}frostbite...{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.00,0:00:32.04,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}which is exactly
+Dialogue: 0,0:00:32.04,0:00:32.70,Cap,,0,0,0,,{\fscx82\fscy82\t(0,120,\fscx104\fscy104)\t(120,180,\fscx100\fscy100)}why...

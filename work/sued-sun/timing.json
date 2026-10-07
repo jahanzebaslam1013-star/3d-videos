@@ -1,0 +1,497 @@
+[
+ {
+  "text": "This man just sued the Sun.",
+  "start": 0.08,
+  "end": 2.04,
+  "words": [
+   {
+    "w": "This",
+    "start": 0.08,
+    "end": 0.29
+   },
+   {
+    "w": "man",
+    "start": 0.32,
+    "end": 0.61
+   },
+   {
+    "w": "just",
+    "start": 0.64,
+    "end": 0.89
+   },
+   {
+    "w": "sued",
+    "start": 0.92,
+    "end": 1.17
+   },
+   {
+    "w": "the",
+    "start": 1.2,
+    "end": 1.41
+   },
+   {
+    "w": "Sun.",
+    "start": 1.44,
+    "end": 2.04
+   }
+  ]
+ },
+ {
+  "text": "His sunburn was so bad, his face glowed in the dark.",
+  "start": 2.24,
+  "end": 5.84,
+  "words": [
+   {
+    "w": "His",
+    "start": 2.24,
+    "end": 2.49
+   },
+   {
+    "w": "sunburn",
+    "start": 2.52,
+    "end": 2.89
+   },
+   {
+    "w": "was",
+    "start": 2.92,
+    "end": 3.09
+   },
+   {
+    "w": "so",
+    "start": 3.12,
+    "end": 3.41
+   },
+   {
+    "w": "bad,",
+    "start": 3.44,
+    "end": 3.93
+   },
+   {
+    "w": "his",
+    "start": 3.96,
+    "end": 4.13
+   },
+   {
+    "w": "face",
+    "start": 4.16,
+    "end": 4.45
+   },
+   {
+    "w": "glowed",
+    "start": 4.48,
+    "end": 4.73
+   },
+   {
+    "w": "in",
+    "start": 4.76,
+    "end": 4.89
+   },
+   {
+    "w": "the",
+    "start": 4.92,
+    "end": 5.21
+   },
+   {
+    "w": "dark.",
+    "start": 5.24,
+    "end": 5.84
+   }
+  ]
+ },
+ {
+  "text": "His lawyer called it a long-range attack, from 93 million miles away.",
+  "start": 5.977,
+  "end": 10.959999999999999,
+  "words": [
+   {
+    "w": "His",
+    "start": 5.977,
+    "end": 6.05
+   },
+   {
+    "w": "lawyer",
+    "start": 6.08,
+    "end": 6.49
+   },
+   {
+    "w": "called",
+    "start": 6.52,
+    "end": 6.69
+   },
+   {
+    "w": "it",
+    "start": 6.72,
+    "end": 6.85
+   },
+   {
+    "w": "a",
+    "start": 6.88,
+    "end": 7.17
+   },
+   {
+    "w": "long-range",
+    "start": 7.2,
+    "end": 7.65
+   },
+   {
+    "w": "attack,",
+    "start": 7.68,
+    "end": 8.41
+   },
+   {
+    "w": "from",
+    "start": 8.44,
+    "end": 8.61
+   },
+   {
+    "w": "93",
+    "start": 8.64,
+    "end": 9.41
+   },
+   {
+    "w": "million",
+    "start": 9.44,
+    "end": 9.81
+   },
+   {
+    "w": "miles",
+    "start": 9.84,
+    "end": 10.13
+   },
+   {
+    "w": "away.",
+    "start": 10.16,
+    "end": 10.959999999999999
+   }
+  ]
+ },
+ {
+  "text": "The Sun showed up to court... and instantly melted the judge's gavel.",
+  "start": 11.04,
+  "end": 15.04,
+  "words": [
+   {
+    "w": "The",
+    "start": 11.04,
+    "end": 11.17
+   },
+   {
+    "w": "Sun",
+    "start": 11.2,
+    "end": 11.49
+   },
+   {
+    "w": "showed",
+    "start": 11.52,
+    "end": 11.65
+   },
+   {
+    "w": "up",
+    "start": 11.68,
+    "end": 11.81
+   },
+   {
+    "w": "to",
+    "start": 11.84,
+    "end": 12.05
+   },
+   {
+    "w": "court...",
+    "start": 12.08,
+    "end": 12.57
+   },
+   {
+    "w": "and",
+    "start": 12.6,
+    "end": 12.77
+   },
+   {
+    "w": "instantly",
+    "start": 12.8,
+    "end": 13.41
+   },
+   {
+    "w": "melted",
+    "start": 13.44,
+    "end": 13.81
+   },
+   {
+    "w": "the",
+    "start": 13.84,
+    "end": 13.97
+   },
+   {
+    "w": "judge's",
+    "start": 14.0,
+    "end": 14.33
+   },
+   {
+    "w": "gavel.",
+    "start": 14.36,
+    "end": 15.04
+   }
+  ]
+ },
+ {
+  "text": "The jury needed sunglasses.",
+  "start": 15.12,
+  "end": 17.040000000000003,
+  "words": [
+   {
+    "w": "The",
+    "start": 15.12,
+    "end": 15.25
+   },
+   {
+    "w": "jury",
+    "start": 15.28,
+    "end": 15.57
+   },
+   {
+    "w": "needed",
+    "start": 15.6,
+    "end": 15.89
+   },
+   {
+    "w": "sunglasses.",
+    "start": 15.92,
+    "end": 17.040000000000003
+   }
+  ]
+ },
+ {
+  "text": "The stenographer got a tan.",
+  "start": 17.08,
+  "end": 18.96,
+  "words": [
+   {
+    "w": "The",
+    "start": 17.08,
+    "end": 17.21
+   },
+   {
+    "w": "stenographer",
+    "start": 17.24,
+    "end": 17.89
+   },
+   {
+    "w": "got",
+    "start": 17.92,
+    "end": 18.01
+   },
+   {
+    "w": "a",
+    "start": 18.04,
+    "end": 18.13
+   },
+   {
+    "w": "tan.",
+    "start": 18.16,
+    "end": 18.96
+   }
+  ]
+ },
+ {
+  "text": "So the judge ruled: the Sun must stay twice as far away.",
+  "start": 19.04,
+  "end": 22.64,
+  "words": [
+   {
+    "w": "So",
+    "start": 19.04,
+    "end": 19.13
+   },
+   {
+    "w": "the",
+    "start": 19.16,
+    "end": 19.25
+   },
+   {
+    "w": "judge",
+    "start": 19.28,
+    "end": 19.57
+   },
+   {
+    "w": "ruled:",
+    "start": 19.6,
+    "end": 20.21
+   },
+   {
+    "w": "the",
+    "start": 20.24,
+    "end": 20.41
+   },
+   {
+    "w": "Sun",
+    "start": 20.44,
+    "end": 20.61
+   },
+   {
+    "w": "must",
+    "start": 20.64,
+    "end": 20.85
+   },
+   {
+    "w": "stay",
+    "start": 20.88,
+    "end": 21.17
+   },
+   {
+    "w": "twice",
+    "start": 21.2,
+    "end": 21.57
+   },
+   {
+    "w": "as",
+    "start": 21.6,
+    "end": 21.73
+   },
+   {
+    "w": "far",
+    "start": 21.76,
+    "end": 22.09
+   },
+   {
+    "w": "away.",
+    "start": 22.12,
+    "end": 22.64
+   }
+  ]
+ },
+ {
+  "text": "Problem solved... except now it's snowing in July.",
+  "start": 22.72,
+  "end": 26.560000000000002,
+  "words": [
+   {
+    "w": "Problem",
+    "start": 22.72,
+    "end": 23.17
+   },
+   {
+    "w": "solved...",
+    "start": 23.2,
+    "end": 24.33
+   },
+   {
+    "w": "except",
+    "start": 24.36,
+    "end": 24.61
+   },
+   {
+    "w": "now",
+    "start": 24.64,
+    "end": 24.85
+   },
+   {
+    "w": "it's",
+    "start": 24.88,
+    "end": 25.09
+   },
+   {
+    "w": "snowing",
+    "start": 25.12,
+    "end": 25.49
+   },
+   {
+    "w": "in",
+    "start": 25.52,
+    "end": 25.65
+   },
+   {
+    "w": "July.",
+    "start": 25.68,
+    "end": 26.560000000000002
+   }
+  ]
+ },
+ {
+  "text": "Would you take that deal? Yes or no?",
+  "start": 26.64,
+  "end": 28.8,
+  "words": [
+   {
+    "w": "Would",
+    "start": 26.64,
+    "end": 26.77
+   },
+   {
+    "w": "you",
+    "start": 26.8,
+    "end": 26.93
+   },
+   {
+    "w": "take",
+    "start": 26.96,
+    "end": 27.09
+   },
+   {
+    "w": "that",
+    "start": 27.12,
+    "end": 27.25
+   },
+   {
+    "w": "deal?",
+    "start": 27.28,
+    "end": 28.05
+   },
+   {
+    "w": "Yes",
+    "start": 28.08,
+    "end": 28.29
+   },
+   {
+    "w": "or",
+    "start": 28.32,
+    "end": 28.45
+   },
+   {
+    "w": "no?",
+    "start": 28.48,
+    "end": 28.8
+   }
+  ]
+ },
+ {
+  "text": "He got frostbite... which is exactly why...",
+  "start": 29.348,
+  "end": 32.58,
+  "words": [
+   {
+    "w": "He",
+    "start": 29.348,
+    "end": 29.45
+   },
+   {
+    "w": "got",
+    "start": 29.48,
+    "end": 29.73
+   },
+   {
+    "w": "frostbite...",
+    "start": 29.76,
+    "end": 31.01
+   },
+   {
+    "w": "which",
+    "start": 31.04,
+    "end": 31.17
+   },
+   {
+    "w": "is",
+    "start": 31.2,
+    "end": 31.33
+   },
+   {
+    "w": "exactly",
+    "start": 31.36,
+    "end": 32.05
+   },
+   {
+    "w": "why...",
+    "start": 32.08,
+    "end": 32.58
+   }
+  ]
+ }
+]
